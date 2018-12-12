@@ -8,6 +8,7 @@
 远程库pull本地
 1.git clone https://github.com/cxm1995/-repository.git //http网址
 
+
 PUSH本地文件到远程仓库
 1.git add file-name
 2.git commit -m "cc" //cc 用于给文件备注,方便查找
@@ -21,6 +22,8 @@ PUSH本地文件到远程仓库
 3.git commit -m "first commit"
 4.在网上创建一个远程仓库 比如叫做:yourRepo
 5.git remote add origin git@github.com:cxm1995/yourRepo.git    //关联本地仓库和远程仓库
-6.git push -u origin master //PUSH //添加了-u 参数后,之后push和pull简化成 git push和git pull
+6.git push -u origin master //PUSH 
+//添加了-u 参数后,之后push和pull简化成 git push和git pull
+7.git pull
+PUSH 基本就是 add commit push 三步走
 
-基本就是 add commit push 三步走

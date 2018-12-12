@@ -1,8 +1,8 @@
 初始化
-1.ssh-keygen -t rsa -C "742318674@qq.com" //将key复制到github账号内
+1.ssh-keygen -t rsa -C "xxxxx@qq.com" //将key复制到github账号内
 2.ssh -T git@github.com /检查是否成功绑定
 3.git config --global user.name "cxm1995"
-  git config --global user.email "742318674@qq.com"
+  git config --global user.email "xxxxx@qq.com"
 
 
 远程库pull本地
